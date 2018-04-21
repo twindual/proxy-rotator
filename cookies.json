@@ -1,0 +1,6 @@
+{
+    "name": "location",
+    "value": "%7B%22max_longitude%22%3A+-95.177%2C+%22entity_id%22%3A+1215%2C+%22min_longitude%22%3A+-95.5423%2C+%22neighborhood%22%3A+%22%22%2C+%22address1%22%3A+%22%22%2C+%22address2%22%3A+%22%22%2C+%22address3%22%3A+%22%22%2C+%22min_latitude%22%3A+29.6057%2C+%22county%22%3A+null%2C+%22unformatted%22%3A+%22Houston%2C+TX%22%2C+%22borough%22%3A+%22%22%2C+%22polygons%22%3A+null%2C+%22city%22%3A+%22Houston%22%2C+%22isGoogleHood%22%3A+false%2C+%22language%22%3A+null%2C+%22zip%22%3A+%22%22%2C+%22country%22%3A+%22US%22%2C+%22provenance%22%3A+%22YELP_GEOCODING_ENGINE%22%2C+%22longitude%22%3A+-95.3596%2C+%22display%22%3A+%22Houston%2C+TX%22%2C+%22confident%22%3A+null%2C+%22state%22%3A+%22TX%22%2C+%22latitude%22%3A+29.7541%2C+%22usingDefaultZip%22%3A+false%2C+%22max_latitude%22%3A+29.9207%2C+%22accuracy%22%3A+4%7D",
+    "domain": ".yelp.com",
+    "expires": "2038-04-15T05:03:55.869Z"
+}

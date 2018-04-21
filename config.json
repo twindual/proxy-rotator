@@ -7,12 +7,13 @@
     "graceTime": 150,
     "logging": {
         "appenders": [
-            { "type": "console" }
+            {
+                "type": "console"
+            }
         ],
         "replaceConsole": true
     },
     "proxies": [
-
         "http://ross@socialmainst.com:Kingandre911@au100.nordvpn.com:80",
         "http://ross@socialmainst.com:Kingandre911@au101.nordvpn.com:80",
         "http://ross@socialmainst.com:Kingandre911@au102.nordvpn.com:80",

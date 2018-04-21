@@ -1,0 +1,22 @@
+{
+    "defaultTimeout": 5000,
+    "port": 8000,
+    "repairTime": 600,
+    "blockTimeout": 3600,
+    "logLevel": "INFO",
+    "graceTime": 150,
+    "logging": {
+        "appenders": [
+            { "type": "console" }
+        ],
+        "replaceConsole": true
+    },
+    "proxies": [
+        "http://ross@socialmainst.com:Kingandre911@ca100.nordvpn.com:80",
+        "http://ross@socialmainst.com:Kingandre911@ca101.nordvpn.com:80",
+        "http://ross@socialmainst.com:Kingandre911@ca102.nordvpn.com:80",
+        "http://ross@socialmainst.com:Kingandre911@ca103.nordvpn.com:80",
+        "http://ross@socialmainst.com:Kingandre911@ca104.nordvpn.com:80",
+        "http://ross@socialmainst.com:Kingandre911@ca105.nordvpn.com:80"
+    ]
+}
