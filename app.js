@@ -103,7 +103,7 @@ function sendStatus(req, res) {
     firstBlocked = new Date(firstBlocked.blocked.getTime() + (Config.blockTimeout*1000))
     status['next block release'] = firstBlocked.toLocaleString('de')
   }
-  res.send(status)
+  res.sendStatus(status)
 }
 
 /**
@@ -116,7 +116,7 @@ function handleRequest (req, res) {
   let timeout = (+query.timeout) || DefaultTimeout
 
   if(!query.url) {
-    return res.end(JSON.stringify({
+    return res.status(500).end(JSON.stringify({
       urls: {
         '/status': 'get the service status',
         '/proxies': 'get the proxy status',
@@ -130,7 +130,7 @@ function handleRequest (req, res) {
 
   if(!url.host) {
     url = parseUrl('http://' + query.url)
-    if(!url.host) return res.send(500).end('supply a proper url, for example: url=google.de')
+    if(!url.host) return res.status(500).end('supply a proper url, for example: url=google.de')
   }
 
   if(Proxies.blocked()) {
